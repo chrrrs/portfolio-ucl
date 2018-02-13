@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 import './bulma.css'
 import './index.css'
 
@@ -22,6 +23,7 @@ const TemplateWrapper = ({ children }) => (
     <div>
       { children() }
     </div>
+    <Footer />
   </div>
 )
 

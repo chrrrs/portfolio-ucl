@@ -38,6 +38,10 @@ a.navbar-item:hover {
   background-color: #651FFF;
 }
 
-.is-pulp {
+.is-grape {
   background-color: #ff3860;
+}
+
+footer {
+  margin-top: 50px;
 }

@@ -10,7 +10,7 @@ class navbar extends Component {
     if(window.innerWidth < 1024) {
       element.classList.toggle('is-active');
       navMenu.classList.toggle('is-active');
-      navMenu.classList.toggle('is-pulp');
+      navMenu.classList.toggle('is-grape');
     }
   }
 
