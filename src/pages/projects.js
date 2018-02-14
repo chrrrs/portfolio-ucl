@@ -6,9 +6,8 @@ import ProjectTile from '../components/ProjectTile/ProjectTile';
 import Tools from '../components/Tools/Tools';
 
 const IndexPage = () => (
-  <div>
+  <div className="needs-air">
     <ProjectTile
-      featuredTitle="Webdevelopment"
       link1="/hello-world/"
       link2=""
       link3=""

@@ -6,10 +6,10 @@ export default function Template({data}) {
   return (
     <div className="container needs-air is-fullheight hero">
      <Helmet title={`Chris Eckert - ${post.frontmatter.title}`} />
-      <div className="blog-post content">
+      <div className="blog-post content needs-air">
         <h1>{post.frontmatter.title}</h1>
         <div
-          className="blog-post-content"
+          className="blog-post-content image"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </div>
