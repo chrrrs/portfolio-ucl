@@ -4,16 +4,22 @@ date: "2017-07-12T17:12:33.962Z"
 title: "Diverse UI & UX designs"
 ---
 
-![alt text][logo]
+![alt text][UI]
 
-[logo]: https://i.imgur.com/97aKVZQ.jpg "Logo Title Text 2"
+[UI]: https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb "UI Challenge"
 
+introduktion
 
+![alt text][kitkat]
 
-Oooooh-weeee, my first blog post!
+[kitkat]: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b17d5661113341.5a63fb21a7c3f.png "Kitkat Website Mockup"
 
-First post Ipsum is a major key to success. Congratulations, you played yourself. Surround yourself with angels. Celebrate success right, the only way, apple.
+text
 
-The key is to drink coconut, fresh coconut, trust me. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast.
+![alt text][yamaha]
 
-<pre><code>// some css grid code </code></pre>
+[yamaha]: https://mir-s3-cdn-cf.behance.net/project_modules/1400/58e43d61141379.5a65217ea09dd.png "Yamaha Mobile Mockup"
+
+text
+
+> [Alle design kan findes på min Behance her](https://www.behance.net/chrisecker3eab)

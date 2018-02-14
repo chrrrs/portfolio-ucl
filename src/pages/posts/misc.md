@@ -4,16 +4,24 @@ date: "2017-07-12T17:12:33.962Z"
 title: "Diverse projekter"
 ---
 
-![alt text][logo]
+![alt text][eco]
 
-[logo]: https://i.imgur.com/97aKVZQ.jpg "Logo Title Text 2"
+[eco]: https://i.imgur.com/3mglRIK.png "EcoSnap Website"
+> [Hjemmesiden kan findes her](https://iamchrisjp.github.io/ecosnap/)
 
+text
 
+```
+Flexbox og js eksempler
+```
 
-Oooooh-weeee, my first blog post!
+![alt text][Flex]
 
-First post Ipsum is a major key to success. Congratulations, you played yourself. Surround yourself with angels. Celebrate success right, the only way, apple.
+[Flex]: https://i.imgur.com/EcxVJne.png "Flex Øvelses Website"
+> [Hjemmesiden kan findes her](https://iamchrisjp.github.io/Jupiter_recreation/)
 
-The key is to drink coconut, fresh coconut, trust me. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast.
+text
 
-<pre><code>// some css grid code </code></pre>
+```
+Flexbox eksempler
+```

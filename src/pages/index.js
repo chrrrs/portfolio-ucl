@@ -17,20 +17,20 @@ const IndexPage = () => (
     <div className="needs-air">
       <ProjectTile
         featuredTitle="Fremhævede Projekter"
-        link1="/hello-world/"
-        link2=""
-        link3=""
-        link4=""
+        link1="/exam/"
+        link2="/brand/"
+        link3="/lions/"
+        link4="/ui/"
         p1="exam"
         p2="brand"
-        p3="misc"
+        p3="lions"
         p4="ui"
         projectOneTitle="Eksamensprojekt"
         projectTwoTitle="Personal Brand"
-        projectThreeTitle="Diverse Projekter"
+        projectThreeTitle="Lions Club"
         projectFourTitle="UI/UX"
         projectTwoContent="Portfolio website"
-        projectThreeContent="Webdevelopment"
+        projectThreeContent="Content Management System"
         projectFourContent="Design"
       />
     </div>

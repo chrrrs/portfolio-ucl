@@ -98,6 +98,13 @@ footer .level-item:last-child {
   border: none;
 }
 
+#lions {
+  background: url('https://images.pexels.com/photos/258160/pexels-photo-258160.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') center no-repeat;
+  filter: grayscale(80%);
+  min-height: 20rem;
+  border: none;
+}
+
 .tile .is-child:hover {
   box-shadow: 2px 2px 10px rgba(10, 10, 10, .4);
 }
@@ -125,6 +132,12 @@ footer .level-item:last-child {
 @media (max-width: 769px) {
   .column {
     display: inline;
+  }
+
+  .content pre {
+    white-space: unset;
+    word-wrap: break-word;
+    text-align: justify;
   }
 }
 
