@@ -3,15 +3,9 @@ import Link from 'gatsby-link';
 
 const header = () => {
   return(
-    <section className="hero is-purple is-fullheight">
-      <div className="hero-body">
+    <section className="hero is-purple is-fullheight add-particles">
+      <div className="hero-body" id="me">
         <div className="container">
-          <h1 className="title">
-            Full Height title
-          </h1>
-          <h2 className="subtitle">
-            Full Height subtitle
-          </h2>
         </div>
       </div>
     </section>

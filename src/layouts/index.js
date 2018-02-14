@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import List from '../components/List/List';
+
 import './bulma.css'
 import './index.css'
 
@@ -18,6 +20,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      script={[{src: "/static/font-awesome/js/fontawesome-all.min.js"}]}
     />
     <Navbar />
     <div>
