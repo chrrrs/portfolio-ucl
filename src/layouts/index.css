@@ -169,6 +169,26 @@ footer .level-item:last-child {
   bottom: 1rem;
 }
 
+#contactPar {
+  background: url('../assets/images/particles.svg') center no-repeat;
+  background-size: 70rem 50rem;
+}
+
+#placeholder1 {
+  background: url('../assets/images/particles.svg') center no-repeat;
+  background-color: #673AB7;
+}
+
+#placeholder2 {
+  background: url('../assets/images/particles.svg') center no-repeat;
+  background-color: #673AB7;
+}
+
+#placeholder3 {
+  background: url('../assets/images/particles.svg') center no-repeat;
+  background-color: #673AB7;
+}
+
 @media (max-width: 769px) {
   .column {
     display: inline;
@@ -184,6 +204,7 @@ footer .level-item:last-child {
     height: 15rem;
   }
 }
+
 @media (max-width: 500px) {
   .file-icon {
     margin-right: 0;
