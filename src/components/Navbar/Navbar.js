@@ -31,9 +31,9 @@ class navbar extends Component {
       </div>
       <div className="navbar-menu" id="navMenu">
       <div className="navbar-end">
-      <Link className="navbar-item is-size-5" to="/page-2/">Om mig</Link>
+      <Link className="navbar-item is-size-5" to="/about/">Om mig</Link>
       <Link className="navbar-item is-size-5" to="/projects/">Projekter</Link>
-      <Link className="navbar-item is-size-5" to="/hello-world/">Kontakt</Link>
+      <Link className="navbar-item is-size-5" to="/contact/">Kontakt</Link>
       </div>
       </div>
       </div>

@@ -14,7 +14,25 @@ title: "CMS for lions"
 
 text
 
-<pre><code>Flexbox og js eksempler</code></pre>
+```
+<?php
+  $headTitle = "Artikler | Lions Odense";
+  include('./functions.php');
+  include('./assets/head_nav.php');
+
+  $pages = array_reverse(getData());
+
+?>
+
+<section id="front-page-news">
+  <ul id="front-cards">
+    <?php foreach ($pages as $i => $page): ?>
+    <li><?php include('./assets/card.php'); ?></li>
+    <?php endforeach; ?>
+  </ul>
+</section>
+
+```
 
 ![alt text][cms]
 
@@ -22,4 +40,26 @@ text
 
 text
 
-<pre><code>cms eksempler </code></pre>
+```
+function updatePage() {
+    $title = $_POST['title'];
+    $content = $_POST['content'];
+    $preText = $_POST['preText'];
+    $image = $_POST['image'];
+
+    $data = [
+      'title' => $title,
+      'content' => $content,
+      'preText' => $preText,
+      'image' => $image
+    ];
+
+    $id = $_GET['id'];
+    $pages = getData();
+    $pages[$id] = $data;
+    putData($pages);
+  }
+
+```
+
+text
