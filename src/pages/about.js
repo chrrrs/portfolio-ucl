@@ -7,23 +7,30 @@ import Content from '../components/Content/Content';
 
 const AboutPage = () => {
 
+  const element = document.querySelector('.file-label');
 
   window.onload = () => {
-
     const element = document.querySelector('.file-label');
+
 
     if(window.innerWidth < 500) {
       element.innerHTML = "";
     }
 
-    window.addEventListener('resize', () => {
-      if(window.innerWidth < 500) {
-        element.innerHTML = "";
-      } else {
-        element.innerHTML = "Download CV"
+  }
+
+    window.addEventListener('resize', (e) => {
+
+      const element = document.querySelector('.file-label');
+
+      if(element) {
+        if(window.innerWidth < 500) {
+          element.innerHTML = "";
+        } else {
+          element.innerHTML = "Download CV"
+        }
       }
     })
-  }
 
   return(
     <div className="needs-air">
@@ -32,8 +39,8 @@ const AboutPage = () => {
           <div className="tile is-12 is-vertical is-parent">
             <div className="tile is-child box text-child-bottom image" id="aboutMe">
             <span className="text-is-bottom">
-              <p className="title has-text-white">Chris Eckert</p>
-              <p className="subtitle has-text-white">Webudvikler</p>
+              <p className="title">Chris Eckert</p>
+              <p className="subtitle">Webudvikler</p>
             </span>
             <span id="cv">
             <a title="Download CV" href="https://i.imgur.com/DiC1JU3.png" className="file-cta is-danger" download>

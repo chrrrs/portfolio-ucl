@@ -10,7 +10,7 @@ class navbar extends Component {
     if(window.innerWidth < 1024) {
       element.classList.toggle('is-active');
       navMenu.classList.toggle('is-active');
-      navMenu.classList.toggle('is-grape');
+      navMenu.classList.toggle('is-purple');
     }
   }
 
@@ -23,7 +23,7 @@ class navbar extends Component {
       <div id="brand-logo"></div>
       <h1 className="is-size-5">Chris Eckert</h1>
       </Link>
-      <button className="button navbar-burger" data-target="navMenu" onClick={this.burgerNav}>
+      <button className="button navbar-burger is-purple" data-target="navMenu" onClick={this.burgerNav}>
       <span></span>
       <span></span>
       <span></span>
