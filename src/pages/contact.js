@@ -20,7 +20,7 @@ const ContactPage = () => {
                     <br/>
                     Hvis du er intereseret i et samarbejde eller yderligere information, kan du altid kontakte mig på min mail.
                     <br/>
-                    Du kan også finde mig på min sociale medier, jeg ser frem til at høre fra dig.
+                    Du kan også finde mig på mine sociale medier, jeg ser frem til at høre fra dig.
                   </p>
                 </div>
                 <nav className="level is-mobile">

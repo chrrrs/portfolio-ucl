@@ -29,7 +29,7 @@ const IndexPage = () => (
       link1="/lions/"
       link2=""
       link3="/ui/"
-      link4="/misc/"
+      link4="/flex/"
       p1="lions"
       p2="placeholder3"
       p3="ui"
@@ -37,11 +37,11 @@ const IndexPage = () => (
       projectOneTitle="Lions Club"
       projectTwoTitle=""
       projectThreeTitle="UI/UX"
-      projectFourTitle="Diverse Projekter"
+      projectFourTitle="Flexbox"
       projectOneContent="Content Management System"
       projectTwoContent=""
       projectThreeContent="Design"
-      projectFourContent="Webdevelopment"
+      projectFourContent="Responsivt design"
       />
   </div>
 )

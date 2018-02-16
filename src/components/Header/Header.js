@@ -14,7 +14,6 @@ const header = () => {
             <h2 className="subtitle has-text-white">
               Multimediedesigner & Webudvikler placeret i hjertet af Odense
             </h2>
-            <p className="content has-text-light">lorem ipsum bla</p>
             <div className="container level">
             <a href="https://github.com/iamchrisjp" target="_blank" className="level-item has-text-white is-size-4"><i className="fab fa-github"></i></a>
             <a href="https://dribbble.com/Eckert" target="_blank" className="level-item has-text-white is-size-4"><i className="fab fa-dribbble"></i></a>
@@ -24,13 +23,13 @@ const header = () => {
           </div>
         </div>
         <span className="scroll-btn">
-	<a href="#">
-		<span className="mouse">
-			<span>
-			</span>
-		</span>
-	</a>
-</span>
+        	<a href="#">
+        		<span className="mouse">
+        			<span>
+        			</span>
+        		</span>
+        	</a>
+        </span>
       </div>
     </section>
   )

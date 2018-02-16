@@ -9,15 +9,15 @@ title: "Exam Project"
 [app]: https://i.imgur.com/97aKVZQ.jpg "App Multi Pages"
 > [Hjemmesiden kan findes her](http://ekkato.dk/vs_app/index.php) - Username: Admin & Password: Admin213 & Connect Code: FqM8HBPbtTeWYZKwM3
 
-Semester Eksamen var baseret på at
+Til anden semester eksamen var Valdemars Slot klient, de ønskede en digital løsning, der ville få deres primære målgruppe *børnefamilier* til at besøge slottet udenfor højsæsonen. Vi tog et allerede populært koncept for slottet **Skattejagten** og producerede en **webapplikation** med sæsonspecifikke ruter. Konceptet var at barn og voksen hver skulle have en del af app'en og dermed hjælpe hinanden igennem slottet for at vinde.
 
-The idea
+De to app's blev ikke forbundet reelt i dette koncept, dette kunne være opnået igennem **AJAX** eller **Websockets**, dog forhindrede opgavebeskrivelsen brugen af disse teknologier.
 
 ![alt text][parent]
 
 [parent]: https://i.imgur.com/MSXTDDk.png "Parent Pages"
 
-forældre versionen
+Forældre delen af app'en ville indebære at man logger ind med en email eller *social media account* gennem **Passport.js**. Dette blev gemt i en JSON fil med bruger oplysninger tildels for at forbinde barnet til forældre versionen og gemme data på forældrensbruger, men også til senere at udsende *nyhedsbreve* samt *tilbud* den der har downloadet app'en.
 
 ```
 <?php
@@ -39,13 +39,13 @@ forældre versionen
 
 ```
 
-Forklar Foreach loopet
+Her hentes *app_routes* ud fra **JSON** objektet med *getData()* funktionen og der bruges et **foreach loop** til at præsenterer hver enkelt rute på forældrensapp så de kan holde styr på hvilke ruter er bestået og hvilke der ikke er vundet endnu.
 
 ![alt text][Child]
 
 [Child]: https://i.imgur.com/7D1CMsP.png "Children Pages"
 
-børne versionen
+På versionen til børn skulle de blot forbinde sig til forældrene gennem en unik kode som genereres ud fra forældrens brugeroplysninger. Efterfølgende vil det være muligt at se spørgsmål, der ved hjælp af forældreneskort skal navigerer dem gennem slottet. Barne versionen er meget farverig og er baseret på virkelige interviews.
 
 ```
 include('../functions.php');
@@ -77,4 +77,4 @@ foreach($questions as $struct) {
 
 ```
 
-Forklar kode
+Den ovenstående kode viser hvordan **applikationens logik** fungerer. For at vide hvilken rute og spørgsmål barnet befinder sig på bliver der sendt og hentet elementer fra **query** strengen. Der bliver tjekket om **JSON** filen indeholder et objekt med det samme **Id** som fremfindes i *query strengen*, når et match findes er den pågåldende rute fundet og gemmes i en ny variabel for at kunne finde spørgsmålene i dette objekt eller rute. Dette gøres principielt på samme måde ved at tjekke om *query strengens* spørgsmåls *Id* er det samme som et i ruten. Til sidst vil der blive tjekket om det som barnet svare er rigtigt og en **property** på JSON objektet vil ændres *isAnswered* og barnet vil blive sendt videre. 

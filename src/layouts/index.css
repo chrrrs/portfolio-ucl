@@ -72,6 +72,11 @@ a.navbar-item:hover {
   color: white;
 }
 
+a.navbar-item:hover {
+  background-color: #663399;
+  color: #e6e6e696;
+}
+
 /* Header/Hero */
 
 #me {
@@ -213,20 +218,7 @@ a.navbar-item:hover {
 	animation: ani-mouse 2.5s linear infinite;
 }
 
-/*  */
-
-#main-container {
-  background: url('../assets/images/particles.svg') center no-repeat;
-  background-position-y:  
-}
-
-footer {
-  margin-top: 50px;
-}
-
-footer .level-item:last-child {
-  padding-top: 5px;
-}
+/* Project Container */
 
 #exam {
   background: url('https://i.imgur.com/97aKVZQ.jpg') center no-repeat;
@@ -273,6 +265,8 @@ footer .level-item:last-child {
   min-height: 20rem;
   border: none;
 }
+
+
 
 .tile .is-child:hover {
   box-shadow: 2px 2px 10px rgba(10, 10, 10, .4);
@@ -355,10 +349,17 @@ footer .level-item:last-child {
   background-color: #663399;
 }
 
-a.navbar-item:hover {
-  background-color: #663399;
-  color: #e6e6e696;
+/* Footer Content */
+
+footer {
+  margin-top: 50px;
 }
+
+footer .level-item:last-child {
+  padding-top: 5px;
+}
+
+/* Media Queries */
 
 @media (max-width: 1025px) {
   #me div img {
