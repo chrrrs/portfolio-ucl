@@ -19,7 +19,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-      script={[{src: "/static/font-awesome/js/fontawesome-all.min.js"}]}
+      script={[{src: "https://use.fontawesome.com/releases/v5.0.6/js/all.js"}]}
     />
     <Navbar />
     <div>
