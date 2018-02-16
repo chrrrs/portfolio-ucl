@@ -13,7 +13,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Chris Eckert - Portfolio"
       link={[
-        {href: "/static/favicon.ico", rel: 'icon'}
+        {href: "../assets/images/fav.ico", rel: 'icon'}
       ]}
       meta={[
         { name: 'description', content: 'Sample' },
