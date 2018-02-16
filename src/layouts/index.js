@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
-import List from '../components/List/List';
 
 import './bulma.css'
 import './index.css'

@@ -43,7 +43,7 @@ const AboutPage = () => {
               <p className="subtitle">Webudvikler</p>
             </span>
             <span id="cv">
-            <a title="Download CV" href="https://i.imgur.com/DiC1JU3.png" className="file-cta is-danger" download>
+            <a title="Download CV" href="http://ekkato.dk/cv.pdf" className="file-cta is-danger" download>
             <span className="file-icon">
             <i className="fas fa-download"></i>
             </span>
