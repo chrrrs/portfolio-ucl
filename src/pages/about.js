@@ -7,32 +7,6 @@ import Content from '../components/Content/Content';
 
 const AboutPage = () => {
 
-
-  // const element = document.querySelector('.file-label');
-  //
-  // window.onload = () => {
-  //   const element = document.querySelector('.file-label');
-  //
-  //
-  //   if(window.innerWidth < 500) {
-  //     element.innerHTML = "";
-  //   }
-  //
-  // }
-  //
-  //   window.addEventListener('resize', (e) => {
-  //
-  //     const element = document.querySelector('.file-label');
-  //
-  //     if(element) {
-  //       if(window.innerWidth < 500) {
-  //         element.innerHTML = "";
-  //       } else {
-  //         element.innerHTML = "Download CV"
-  //       }
-  //     }
-  //   })
-
   return(
     <div className="needs-air">
       <div className="container">

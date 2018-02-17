@@ -404,7 +404,16 @@ footer .level-item:last-child {
   .file-icon {
     margin-right: 0;
   }
+  .file-label {
+    display: none;
+  }
   #aboutMe span p {
     color: #FFF !important;
+  }
+}
+
+@media (max-height: 620px) {
+  .scroll-btn {
+    display: none;
   }
 }
