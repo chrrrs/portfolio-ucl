@@ -11,7 +11,7 @@ const IndexPage = () => (
     <section className="section is-medium">
       <div className="container needs-air has-text-centered" id="main-container">
         <h1 className="title">Chris Eckert</h1>
-        <p className="subtitle">Webudvikler, Designer, UI/UX og meget mere</p>
+        <p className="subtitle">Webudvikling, Design, UI/UX og meget mere</p>
       </div>
     </section>
     <div className="needs-air">

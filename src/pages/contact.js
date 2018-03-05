@@ -15,8 +15,8 @@ const ContactPage = () => {
               </div>
               <div className="media-content">
                 <div className="content">
-                  <p>
-                    <strong>Chris Eckert</strong> <small>@iamchrisjp</small> <small>31m</small>
+                  <p className="is-size-5">
+                    <strong>Chris Eckert</strong>
                     <br/>
                     Hvis du er intereseret i et samarbejde eller yderligere information, kan du altid kontakte mig på min mail.
                     <br/>
@@ -26,8 +26,9 @@ const ContactPage = () => {
                 <nav className="level is-mobile">
                   <div className="level-left">
                     <a className="level-item" href="mailto:chris@chriseckert.dk">
-                      <span className="is-small"><i className="fas fa-envelope"></i> chris@chriseckert.dk</span>
+                      <span className="is-small is-size-5"><i className="fas fa-envelope"></i> chris@chriseckert.dk</span>
                     </a>
+                    <span className="is-small is-size-5"><i className="fas fa-mobile"></i> +45 23 88 02 24</span>
                   </div>
                 </nav>
               </div>

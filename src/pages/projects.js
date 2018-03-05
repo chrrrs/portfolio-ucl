@@ -8,10 +8,10 @@ import Tools from '../components/Tools/Tools';
 const IndexPage = () => (
   <div className="needs-air">
     <ProjectTile
-      link1=""
+      link1="/projects/"
       link2="/brand/"
       link3="/exam/"
-      link4=""
+      link4="/projects/"
       p1="placeholder1"
       p2="brand"
       p3="exam"
@@ -27,7 +27,7 @@ const IndexPage = () => (
       />
     <ProjectTile
       link1="/lions/"
-      link2=""
+      link2="/projects/"
       link3="/ui/"
       link4="/flex/"
       p1="lions"
