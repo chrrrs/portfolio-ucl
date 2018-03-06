@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Link from 'gatsby-link'
 
 import ScrollTop from '../components/ScrollTop/ScrollTop';
 
@@ -10,6 +11,7 @@ export default function Template({data}) {
      <Helmet title={`Chris Eckert - ${post.frontmatter.title}`} />
      <span id="top"></span>
       <div className="blog-post content needs-air">
+      <Link to="/projects"><i className="fas fa-angle-left"></i> tilbage</Link>
         <h1>{post.frontmatter.title}</h1>
         <div
           className="blog-post-content image"
