@@ -6,7 +6,7 @@ const header = () => {
     <section className="hero is-fullheight">
       <div className="hero-body" id="me">
         <div className="container">
-          <img className="image" src="https://i.imgur.com/RVDTIWH.jpg" alt="Chris Eckert" id="mePic"/>
+          <img className="image" src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdBAAAAJGUwNGI5YTMwLTJjNWUtNDRmMS1iMDdiLTJiYjE4YWY3MzNlZA.jpg" alt="Chris Eckert" id="mePic"/>
           <div id="heroText">
             <h1 className="title has-text-white">
               Hej, mit navn er Chris Eckert
